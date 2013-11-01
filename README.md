@@ -12,5 +12,6 @@ We're going to build it on top of
 
 ## Contributors
 
+* [Alena Gribskov](https://github.com/marahaya)
 * [Kyle Jensen](https://github.com/kljensen)
 
