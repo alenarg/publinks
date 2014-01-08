@@ -68,6 +68,7 @@
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
+    {% block jumbotron %}
     <div class="jumbotron">
       <div class="container">
        {% block salutation %}<h1>Hello, world!</h1>{%
@@ -76,6 +77,7 @@ endblock %}
         <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>{% endblock %}
       </div>
     </div>
+    {% endblock %}
 
 {% block content %}
     <div class="container">
