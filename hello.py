@@ -1,14 +1,17 @@
 from flask import Flask
 from flask import render_template
 from flask import request
+import models
 
 app = Flask(__name__)
 
 
 @app.route("/")
 def hello():
-    return render_template('index.html', person=request.args.get('person'))
-
+    return render_template(
+    	'index.html',
+        articles=models.articles,
+    )
 
 @app.route("/about")
 def about():

@@ -1,0 +1,13 @@
+<h3>Articles</h3>
+<ul class="media-list">
+  {% for article in articles %}
+  {% if article.show %}
+  <li class="media">
+    <div class="media-body">
+      <p><a href="{{article.url}}">{{article.title|safe}}</a> ({{article.domain}})</p>
+      <p>by {{article.user}} on {{article.strftime('%d')}}</p>
+    </div>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
