@@ -27,7 +27,7 @@ articles = [
         "submitted": datetime.date(2014, 1, 5),
         "user": "billy",
         "url": "http://www.theparisreview.org/interviews/4424/the-art-of-fiction-no-36-william-s-burroughs",
-        "domain": "the parisreview.org",
+        "domain": "theparisreview.org",
         "show": True,
         "disabled": False,
     },
